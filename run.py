@@ -1,5 +1,4 @@
 from app import create_app
-from app.excel_integration import cleanup
 
 app = create_app()
 
