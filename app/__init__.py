@@ -1,5 +1,4 @@
 from flask import Flask
-from app.excel_integration import init_excel_connector
 
 def create_app():
     app = Flask(__name__)
