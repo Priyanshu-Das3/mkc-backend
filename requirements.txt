@@ -7,3 +7,4 @@ scikit-learn
 xlwings
 opencv-python
 ultralytics
+gunicorn
