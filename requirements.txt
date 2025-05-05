@@ -4,7 +4,9 @@ pandas
 Pillow
 numpy
 scikit-learn
-xlwings
 opencv-python
 ultralytics
 gunicorn
+gspread
+oauth2client
+
