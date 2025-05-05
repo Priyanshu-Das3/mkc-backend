@@ -9,7 +9,7 @@ class GoogleSheetsConnector:
         )
         self.client = gspread.authorize(self.creds)
     
-    def get_sensor_data(self, sheet_id='YOUR_SHEET_ID'):
+    def get_sensor_data(self, sheet_id='1fXL0wIxqeHEehuy_NoCpjVjjcvnJNnJk9xULSdZjbKo'):
         sheet = self.client.open_by_key(sheet_id)
         worksheet = sheet.worksheet('ProcessedData')
         return worksheet.get_all_records()
